@@ -1,0 +1,74 @@
+:root {
+  --color-text: #1a1a1a;
+  --color-bg: #ffffff;
+  --color-muted: #666666;
+  --color-border: #e0e0e0;
+  --font-text: -apple-system, BlinkMacSystemFont, "Georgia", serif;
+  --measure: 65ch;
+  --space: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-family: var(--font-text);
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+main {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--space) 1rem;
+}
+
+h1, h2, h3 {
+  line-height: 1.25;
+}
+
+nav {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--space) 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.summary {
+  color: var(--color-muted);
+}
+
+.meta {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  padding: 0.75rem 0;
+  margin: 1.5rem 0;
+}
+
+.case-study-list {
+  list-style: none;
+  padding: 0;
+}
+
+.case-study-list li {
+  margin-bottom: var(--space);
+}
+
+.case-study-list a {
+  color: var(--color-text);
+  font-size: 1.25rem;
+  font-weight: 600;
+}

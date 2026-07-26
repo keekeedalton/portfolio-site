@@ -3,3 +3,9 @@ node_modules/
 .env
 dist/
 build/
+.astro/
+
+# raw source photos of planning docs — transcribed content lives in docs/ and content/
+plan_final_version/
+case-studies-source/
+case studies/

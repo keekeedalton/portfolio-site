@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const caseStudies = (await getCollection('case-studies')).filter((c) => !c.data.draft);
+---
+<BaseLayout title="Portfolio">
+  <h1>Kade Dalton</h1>
+  <p class="summary">
+    Placeholder intro copy. This paragraph will eventually introduce the work below —
+    system, product, and conversation design told through case studies and essays.
+  </p>
+
+  <h2>Case Studies</h2>
+  <ul class="case-study-list">
+    {caseStudies.map((entry) => (
+      <li>
+        <a href={`/case-studies/${entry.id}`}>{entry.data.title}</a>
+        <p class="summary">{entry.data.summary}</p>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>
