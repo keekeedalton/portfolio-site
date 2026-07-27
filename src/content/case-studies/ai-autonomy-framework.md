@@ -14,7 +14,7 @@ draft: false
 
 ## Context
 
-Before this, four real AI features in production — a resource-recommending widget, a WhatsApp "Move to Top" prefill flow, a self-certification audit input-checker, a project summarizer — looked, felt, and behaved completely differently. There were no shared patterns and no guardrails, so teams self-determined how mature to make each AI feature. Rollouts kept outpacing the model's actual accuracy and users' trust in it, and teams bent or broke the design system to compensate — every divergence made the next one look more normal.
+Before this, four real AI features in production: a resource-recommending widget, a "Move to Top" prefill flow, a self-certification audit input-checker, a project summarizer. Each of these looked, felt, and behaved completely differently. There were no shared patterns and no guardrails, so teams self-determined how mature to make each AI feature — and whether or not a human should be in the loop at all. Rollouts kept outpacing models' actual accuracy and users' trust in them, and teams bent or broke the design system to compensate. Every divergence made the next one look more normal.
 
 Risk org had just addressed half of this by launching the AI Responsibility Framework (built by AI4C, evangelized internally by a peer): six stages, from no automation to full automation, each with defined human/AI roles, tooling expectations, and qualification criteria. It gave everyone a shared vocabulary. It didn't give anyone a shared pattern library.
 
