@@ -10,7 +10,7 @@ draft: false
 
 **Scope:** 0-to-1 redesign of the Risk Review support experience — moving from Tasks/Butterfly forms to a structured Help Cases system with an embedded support AI agent, used by project owners across orgs including Instagram, WhatsApp, and Monetization
 
-**Hook:** The brief was to reduce help-case volume. I decided the real problem was unstructured data — project owners were filing free-form requests that neither a human nor an AI could triage efficiently. Restructuring the intake itself took AI answer-confidence from 10% to 67% in the same window that resolution rates rose from 7% to 21%+.
+**TL;DR:** The brief was to reduce help-case volume. I decided the real problem was unstructured data — project owners were filing free-form requests that neither a human nor an AI could triage efficiently. Restructuring the intake itself took AI answer-confidence from 10% to 67% in the same window that resolution rates rose from 7% to 21%+.
 
 ## Context
 

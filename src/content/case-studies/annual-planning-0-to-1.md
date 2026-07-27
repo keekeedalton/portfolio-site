@@ -10,7 +10,7 @@ draft: false
 
 **Scope:** End-to-end content design for a 0-to-1 Annual Planning product — flows, error states, NUX, emails, terminology, and support content — built with EEs, SWEs, PM, PD, Mission Control, Finance, and business stakeholders
 
-**Hook:** Before this, Annual Planning ran on countless spreadsheets, propped up by heavy manual effort to clean data and reconcile it across orgs, plus a legacy tool that gave almost no insight into the process itself. Three-plus years later, it's saved Mission Control 1,000+ hours a cycle, and 99% of position updates now happen in-product instead of in a spreadsheet.
+**TL;DR:** Before this, Annual Planning ran on countless spreadsheets, propped up by heavy manual effort to clean data and reconcile it across orgs, plus a legacy tool that gave almost no insight into the process itself. Three-plus years later, it's saved Mission Control 1,000+ hours a cycle, and 99% of position updates now happen in-product instead of in a spreadsheet.
 
 ## Context
 

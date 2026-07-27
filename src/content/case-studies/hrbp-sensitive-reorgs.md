@@ -10,7 +10,7 @@ draft: false
 
 **Scope:** Content design across five surfaces guiding HR business partners through sensitive reorgs requiring multiple sign-off, working with NORAM and international legal counsel
 
-**Hook:** Sensitive reorgs needed sign-off across product content, in-app notifications, approval tooling, emails, and chat — and every surface had to give users exactly the right amount of assurance, no more and no less. I mapped what users understood at each step to the signposting each surface could actually provide, writing content surgical enough to eliminate legal liability without burying HRBPs in repetitive, byzantine instructions.
+**TL;DR:** Sensitive reorgs needed sign-off across product content, in-app notifications, approval tooling, emails, and chat — and every surface had to give users exactly the right amount of assurance, no more and no less. I mapped what users understood at each step to the signposting each surface could actually provide, writing content surgical enough to eliminate legal liability without burying HRBPs in repetitive, byzantine instructions.
 
 ## Context
 

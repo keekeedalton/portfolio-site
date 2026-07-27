@@ -10,7 +10,7 @@ draft: false
 
 **Scope:** Redesigned the Consult AI screener end-to-end — UX, coded prototypes, risk-classification definitions, and the recall/FPR measurement framework — as the sole cross-functional AI builder on the pod
 
-**Hook:** Legal "Consult" exists to catch novel, high-stakes risks — but 70% of Consults only surfaced risks that were already identified elsewhere, and over half resolved as routine self-certifications. As the Consult pod's sole cross-functional AI builder, I found that the screener's recall problem wasn't an architecture problem. It was a definitions problem. Fixing it took recall to 84% against an 80% target.
+**TL;DR:** Legal "Consult" exists to catch novel, high-stakes risks — but 70% of Consults only surfaced risks that were already identified elsewhere, and over half resolved as routine self-certifications. As the Consult pod's sole cross-functional AI builder, I found that the screener's recall problem wasn't an architecture problem. It was a definitions problem. Fixing it took recall to 84% against an 80% target.
 
 ## Context
 

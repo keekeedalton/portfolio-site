@@ -12,7 +12,7 @@ draft: false
 
 **Scope:** Trained iLlama via Metamate on Content Design standards — focus on accessibility and inclusion guidance
 
-**Hook:** In 2023, before most of design had engaged with LLMs as collaborators, I trained an internal model to reproduce Content Design standards — specifically the accessibility and inclusion guidance that was fragmented across products and creating real legal, privacy, and quality risk.
+**TL;DR:** In 2023, before most of design had engaged with LLMs as collaborators, I trained an internal model to reproduce Content Design standards — specifically the accessibility and inclusion guidance that was fragmented across products and creating real legal, privacy, and quality risk.
 
 ## Context
 

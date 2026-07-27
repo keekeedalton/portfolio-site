@@ -10,7 +10,7 @@ draft: false
 
 **Scope:** Diagnosed and closed AI design-pattern gaps against the Risk org's newly launched AI Responsibility Framework, working with a cross-functional team of product designers and an AI4C champion
 
-**Hook:** Risk had just launched a six-stage framework defining how much autonomy AI should have relative to humans. It told teams *what stage* they were at. It didn't tell anyone *how to design for it*. I broke every AI feature down into four atomic capabilities, mapped them against the framework's stages to find out exactly where the pattern library had coverage and where it didn't, and closed 60% of the gap in a single sprint.
+**TL;DR:** Risk had just launched a six-stage framework defining how much autonomy AI should have relative to humans. It told teams *what stage* they were at. It didn't tell anyone *how to design for it*. I broke every AI feature down into four atomic capabilities, mapped them against the framework's stages to find out exactly where the pattern library had coverage and where it didn't, and closed 60% of the gap in a single sprint.
 
 ## Context
 

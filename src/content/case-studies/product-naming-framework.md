@@ -10,7 +10,7 @@ draft: false
 
 **Scope:** Led naming for Workstream; built a lightweight evaluation template and naming risk-assessment framework; supported renames of 65+ products across Supply, Accounting, and Enterprise Engineering
 
-**Hook:** Naming at Meta is a small thing that's secretly enormous — stakeholder negotiation, a leadership review, a potential blocker. I led the Workstream naming effort, then turned what I learned into a lightweight evaluation template and a risk-assessment framework that other content designers used to rename 65+ products across multiple orgs. The reusable resources reached more people than the product itself did.
+**TL;DR:** Naming at Meta is a small thing that's secretly enormous — stakeholder negotiation, a leadership review, a potential blocker. I led the Workstream naming effort, then turned what I learned into a lightweight evaluation template and a risk-assessment framework that other content designers used to rename 65+ products across multiple orgs. The reusable resources reached more people than the product itself did.
 
 ## Context
 
