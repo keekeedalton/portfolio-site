@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import FloatingNav from '../../components/FloatingNav.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -13,8 +14,14 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 ---
-<BaseLayout title={entry.data.title}>
-  <h1>{entry.data.title}</h1>
-  <p class="meta">{entry.data.role} · {entry.data.discipline} · {entry.data.date.toDateString()}</p>
-  <Content />
+<BaseLayout title={entry.data.title} bare>
+  <FloatingNav activeId="work" />
+  <main>
+    <article class="case-study">
+      <a class="breadcrumb" href="/#work">&larr; Back to work</a>
+      <h1>{entry.data.title}</h1>
+      <p class="meta">{entry.data.role} · {entry.data.discipline} · {entry.data.date.toDateString()}</p>
+      <Content />
+    </article>
+  </main>
 </BaseLayout>

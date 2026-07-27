@@ -1,0 +1,29 @@
+---
+interface Props {
+  // When set, statically marks this item active (used on pages other than
+  // the homepage, which don't have sections to scroll-spy against).
+  activeId?: string;
+}
+
+const { activeId } = Astro.props;
+
+const navItems = [
+  { id: 'intro', index: '01', label: 'Intro', color: 'var(--accent-conversation)' },
+  { id: 'work', index: '02', label: 'Work', color: 'var(--accent-system)' },
+  { id: 'about', index: '03', label: 'About', color: 'var(--accent-product)' },
+  { id: 'contact', index: '04', label: 'Contact', color: 'var(--accent-conversation)' },
+];
+---
+<nav class="floating-nav" aria-label="Section navigation">
+  {navItems.map((item) => (
+    <a
+      href={`/#${item.id}`}
+      data-nav-target={item.id}
+      class={activeId === item.id ? 'is-active' : undefined}
+      style={activeId === item.id ? `--nav-active-color:${item.color}` : undefined}
+    >
+      <span class="nav-index">{item.index}</span>
+      <span class="nav-label">{item.label}</span>
+    </a>
+  ))}
+</nav>

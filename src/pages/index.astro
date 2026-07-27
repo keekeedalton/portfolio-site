@@ -1,23 +1,115 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import FloatingNav from '../components/FloatingNav.astro';
 import { getCollection } from 'astro:content';
+import { SITE_LOCK_STORAGE_KEY } from '../lib/site-lock';
 
 const caseStudies = (await getCollection('case-studies')).filter((c) => !c.data.draft);
----
-<BaseLayout title="Portfolio">
-  <h1>Kade Dalton</h1>
-  <p class="summary">
-    Placeholder intro copy. This paragraph will eventually introduce the work below —
-    system, product, and conversation design told through case studies and essays.
-  </p>
 
-  <h2>Case Studies</h2>
-  <ul class="case-study-list">
-    {caseStudies.map((entry) => (
-      <li>
-        <a href={`/case-studies/${entry.id}`}>{entry.data.title}</a>
-        <p class="summary">{entry.data.summary}</p>
-      </li>
-    ))}
-  </ul>
+const disciplineColor: Record<string, string> = {
+  system: 'var(--accent-system)',
+  product: 'var(--accent-product)',
+  conversation: 'var(--accent-conversation)',
+};
+---
+<BaseLayout title="Kade Dalton" bare>
+  <FloatingNav />
+
+  <div class="scrollpage">
+    <section id="intro" class="section section--dark" data-nav-color="var(--accent-conversation)">
+      <p class="section-label">Kade Dalton</p>
+      <p class="intro-statement">
+        {'{One or two lines introducing the work — system, product, and conversation design, told in prose.}'}
+      </p>
+    </section>
+
+    <section id="work" class="section" data-nav-color="var(--accent-system)">
+      <p class="section-label">Work</p>
+      <ul class="work-list">
+        {caseStudies.map((entry, i) => (
+          <li>
+            <a class="work-card" href={`/case-studies/${entry.id}`}>
+              <span
+                class="work-card-index"
+                style={`background:${disciplineColor[entry.data.discipline] ?? 'var(--accent-neutral)'}`}
+              >
+                {String(i + 1).padStart(2, '0')}
+              </span>
+              <span>
+                <h3 class="work-card-title">{entry.data.title}</h3>
+                <p class="work-card-summary">{entry.data.summary}</p>
+                <span class="work-card-tag">{entry.data.discipline}</span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section id="about" class="section section--sparse" data-nav-color="var(--accent-product)">
+      <p class="section-label">About</p>
+      <p class="sparse-copy">
+        {'{Bio placeholder — background, focus areas, the through-line across the case studies above. Sparse, one or two short paragraphs, in the quiet register of the case study pages.}'}
+      </p>
+    </section>
+
+    <section id="contact" class="section section--dark section--sparse" data-nav-color="var(--accent-conversation)">
+      <p class="section-label">Contact</p>
+      <p class="sparse-copy">{'{One line inviting contact.}'}</p>
+      <div class="contact-links">
+        <a href={`mailto:${'{email}'}`}>{'{email}'}</a>
+        <a href="#">{'{LinkedIn}'}</a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <button type="button" id="forget-me">Forget me</button>
+    </footer>
+  </div>
+
+  <script define:vars={{ SITE_LOCK_STORAGE_KEY }}>
+    document.getElementById('forget-me').addEventListener('click', () => {
+      localStorage.removeItem(SITE_LOCK_STORAGE_KEY);
+      document.documentElement.classList.remove('unlocked');
+      window.scrollTo({ top: 0 });
+    });
+  </script>
+
+  <script>
+    const sections = Array.from(document.querySelectorAll<HTMLElement>('.section'));
+    const navLinks = new Map(
+      Array.from(document.querySelectorAll<HTMLAnchorElement>('.floating-nav a')).map((a) => [
+        a.dataset.navTarget,
+        a,
+      ])
+    );
+
+    const setActive = (id: string, color: string) => {
+      navLinks.forEach((link, targetId) => {
+        const isActive = targetId === id;
+        link.classList.toggle('is-active', isActive);
+        if (isActive) {
+          link.style.setProperty('--nav-active-color', color);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const el = entry.target as HTMLElement;
+            setActive(el.id, el.dataset.navColor ?? 'var(--accent-system)');
+          }
+        });
+      },
+      // Fires when a section crosses the vertical center of the viewport,
+      // rather than requiring 50% of its total height to be visible — that
+      // threshold is unreachable for sections taller than one viewport (e.g.
+      // "work", which grows with the number of case studies).
+      { threshold: 0, rootMargin: '-50% 0px -50% 0px' }
+    );
+
+    sections.forEach((s) => observer.observe(s));
+  </script>
 </BaseLayout>
