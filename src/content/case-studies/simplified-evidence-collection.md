@@ -2,7 +2,7 @@
 title: "Simplified Evidence Collection"
 summary: "Collapsed 5 workflows into 1 and migrated off a legacy tool, cutting error rate and page load time significantly."
 discipline: "system"
-role: "{specific role}"
+role: "Content designer"
 date: 2025-03-01
 tags: ["migration", "workflow", "WIP"]
 draft: false

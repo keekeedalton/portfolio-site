@@ -2,7 +2,7 @@
 title: "Pulse + MicroPulse"
 summary: "Company-wide launch in 10 weeks, achieving 77% CSAT — 7 points above benchmark — while absorbing a methodology change mid-flight."
 discipline: "product"
-role: "{specific role}"
+role: "Content designer"
 date: 2024-03-01
 tags: ["launch", "company-wide", "WIP"]
 draft: false

@@ -2,7 +2,7 @@
 title: "Finance Vision 2030"
 summary: "Leadership-facing visioning deck — 100+ slides and a sizzle reel — used to justify investment decisions."
 discipline: "product"
-role: "{specific role}"
+role: "Content designer"
 date: 2024-02-01
 tags: ["vision", "leadership", "WIP"]
 draft: false

@@ -2,7 +2,7 @@
 title: "HRBP Sensitive Reorgs"
 summary: "12-week content-driven solution for legal partners navigating sensitive reorganizations, under NORAM and international regulatory constraint."
 discipline: "system"
-role: "{specific role — lead content designer?}"
+role: "Content designer"
 date: 2024-09-01
 tags: ["legal", "regulatory", "WIP"]
 draft: false

@@ -2,7 +2,7 @@
 title: "Annual Planning, 0-to-1"
 summary: "Complete 0-to-1 product build for annual planning — 1,000+ hours saved, 3,327 position changes processed."
 discipline: "product"
-role: "{specific role}"
+role: "Content designer"
 date: 2023-10-01
 tags: ["0-to-1", "product", "WIP"]
 draft: false

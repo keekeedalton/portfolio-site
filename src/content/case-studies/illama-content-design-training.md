@@ -2,7 +2,7 @@
 title: "Teaching an LLM to Write Accessibility Copy Without Sounding Like a Robot"
 summary: "Trained an internal model (iLlama, via Metamate) on Content Design standards, before most of design had engaged with LLMs as collaborators."
 discipline: "system"
-role: "Independent contributor; designed and ran the work end-to-end"
+role: "Content designer; independent contributor, designed and ran the work end-to-end"
 date: 2023-09-01
 tags: ["AI", "accessibility", "WIP"]
 draft: false

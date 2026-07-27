@@ -2,7 +2,7 @@
 title: "Unified Manual Reviews"
 summary: "Unified 10+ obscure risk processes into a single workflow in 3 weeks, aligning two engineering teams and multiple PMs."
 discipline: "system"
-role: "{specific role}"
+role: "UX designer / content designer"
 date: 2025-05-01
 tags: ["systems", "risk", "WIP"]
 draft: false
