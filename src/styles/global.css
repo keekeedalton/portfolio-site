@@ -183,7 +183,7 @@ main {
 
 .breadcrumb {
   display: block;
-  text-align: center;
+  text-align: left;
   font-family: var(--font-sans);
   font-size: 0.85rem;
   color: var(--color-muted);
@@ -197,7 +197,7 @@ main {
 
 .case-study h1 {
   font-size: clamp(2rem, 5vw, 2.75rem);
-  text-align: center;
+  text-align: left;
   margin-bottom: 0.5rem;
 }
 
@@ -207,7 +207,7 @@ main {
   font-size: 0.85rem;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   border: none;
   padding: 0;
   margin: 0 0 4rem;
