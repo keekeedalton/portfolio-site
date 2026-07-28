@@ -41,14 +41,13 @@ The pod's mandate was to build an AI screener that could tell whether a project 
 </div>
 
 <div class="figure">
-  <img src="/images/consult-ai-screener/preliminary-review.png" alt="Consult preliminary review screen showing a no-advisory-required outcome with an option to still consult legal" />
-  <p class="figure-caption">A "no advisory required" outcome — the null-state path that still lets a project owner escalate to legal manually if they want a human read.</p>
+  <img src="/images/consult-ai-screener/counsel-review.png" alt="Product counsel review surface showing an AI-detected risk card with accept/reject controls, rationale, and a path to manually add missed risks" />
+  <p class="figure-caption">The product counsel review surface. Accept/reject controls on each AI-detected risk, plus a path for legal to add risks the agent missed — the same interaction that produces the labeled data behind the recall/FPR measurement framework.</p>
 </div>
 
-<div class="figure-row">
-  <img src="/images/consult-ai-screener/counsel-overview-top.png" alt="Product counsel review surface showing an AI-detected risk card with accept/reject controls and rationale" />
-  <img src="/images/consult-ai-screener/counsel-overview-bottom.png" alt="Product counsel review surface showing manually added risks and follow-up action fields" />
-  <p class="figure-caption">The product counsel review surface. Accept/reject controls on each AI-detected risk, plus a path for legal to add risks the agent missed — the same interaction that produces the labeled data behind the recall/FPR measurement framework.</p>
+<div class="figure">
+  <img src="/images/consult-ai-screener/preliminary-review.png" alt="Consult preliminary review screen showing a no-advisory-required outcome with an option to still consult legal" />
+  <p class="figure-caption">A "no advisory required" outcome — the null-state path that still lets a project owner escalate to legal manually if they want a human read.</p>
 </div>
 
 ## Outcomes

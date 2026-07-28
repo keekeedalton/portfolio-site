@@ -250,14 +250,11 @@ main {
   padding-left: 1.5rem;
 }
 
-/* ---- case study figures (break out wider than the reading column) ---- */
+/* ---- case study figures (sized to the reading column) ---- */
 
 .figure,
 .figure-row {
-  width: 100vw;
-  max-width: 900px;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -309,10 +306,6 @@ main {
 }
 
 @media (max-width: 780px) {
-  .figure,
-  .figure-row {
-    width: calc(100vw - 3rem);
-  }
   .figure-row {
     flex-direction: column;
   }

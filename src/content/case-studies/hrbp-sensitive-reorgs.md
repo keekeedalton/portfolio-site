@@ -32,6 +32,11 @@ Instead of sticking to a straightforward linear flow, we built in more recursive
 - Troubleshooting built directly into email content, not left for users to hunt down elsewhere
 - Full documentation for legal sign-off and in-tool resources guiding HRBPs, legal partners, and decision-makers through the process
 
+<div class="figure">
+  <img src="/images/hrbp-sensitive-reorgs/selection-worksheet.png" alt="Selection worksheet for a sensitive reorg, showing a group summary table with per-member proposed moves (removal, convert to IC, role move) awaiting approval" />
+  <p class="figure-caption">A selection worksheet awaiting approval — one of the checkbox-acknowledgement checkpoints designed so a decision-maker could double-check their own work before it moved forward.</p>
+</div>
+
 ## Outcomes
 
 - **Measured:** delivered in 12 weeks — an extremely fast turnaround for a project of this size — ahead of a January 2025 pilot launch

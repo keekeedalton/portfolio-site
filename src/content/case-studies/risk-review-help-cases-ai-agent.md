@@ -34,6 +34,23 @@ The original brief was to reduce case volume. I decided the actual problem was u
 - Failure-mode ontologies — how the agent behaves differently depending on its confidence level, or when an issue touches material risk
 - Off-ramps: null-state messaging when no answer could be found, plus the cooldown button and other UX friction designed to keep project owners on-page long enough for the agent to attempt an answer
 
+<div class="figure-row">
+  <img src="/images/risk-review-help-cases-ai-agent/open-ticket.png" alt="Open a support ticket form with title and issue statement fields, showing validation errors for a too-long title and too-short description" />
+  <img src="/images/risk-review-help-cases-ai-agent/issue-type.png" alt="Issue type dropdown expanded, showing a guardrailed list of specific categories a project owner can select from" />
+  <p class="figure-caption">The structured intake — validated title and issue-statement fields, plus a guardrailed issue-type taxonomy replacing the old single free-text box.</p>
+</div>
+
+<div class="figure">
+  <img src="/images/risk-review-help-cases-ai-agent/ai-processing.png" alt="AI is processing screen gathering insights and recommendations, with an option to skip and open a ticket for a human reviewer" />
+  <p class="figure-caption">The cooldown in action — the agent has to attempt an answer before "skip and open ticket" unlocks.</p>
+</div>
+
+<div class="figure-row">
+  <img src="/images/risk-review-help-cases-ai-agent/reviewer-resolution-1.png" alt="Support ticket reviewer view showing owner ticket details, a reviewer resolution form, and a comment thread from reviewers" />
+  <img src="/images/risk-review-help-cases-ai-agent/reviewer-resolution-2.png" alt="Reviewer resolution summary field with the AI response shown to the owner, plus feedback fields for missing or inaccurate information" />
+  <p class="figure-caption">The reviewer side: the AI's attempted answer shown alongside the ticket, with feedback fields that fed straight back into the confidence and resolution-rate numbers below.</p>
+</div>
+
 ## Outcomes
 
 - **Measured:** AI-assisted resolution rate 7% → 21%+ in three months; 12% reduction in Q4 help cases; question coverage rate (how often the agent could confidently attempt an answer at all) 10% → 67%; project owner skip rate (bypassing the agent for a human) 70% → 50% in the first four weeks; a full 0-to-1 transition of the support flow from Tasks/Butterfly forms to a structured Help Cases system with an embedded agent

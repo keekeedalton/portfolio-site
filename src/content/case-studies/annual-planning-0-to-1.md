@@ -32,6 +32,21 @@ I don't have a crisp memory of the initial ask versus what this grew into — bu
 - A full terminology system, in-product user guide, and support content
 - No-freeze planning with in-tool merge notifications, Line of Credit visibility, and multi-year rate card transitions
 
+<div class="figure">
+  <img src="/images/annual-planning-0-to-1/adjust-headcount.png" alt="Team Planner headcount adjustment table showing roles, workflow status, revisions, cost, and location for a yearly budgeting cycle" />
+  <p class="figure-caption">Adjusting headcount for a planning cycle — the clean metric tiles and sortable, status-badged table that replaced a single ambiguous status field.</p>
+</div>
+
+<div class="figure">
+  <img src="/images/annual-planning-0-to-1/modify-team-structure.png" alt="Team Planner screen for modifying team structure, showing roles alongside objective cards with funding, uplift, and role-reduction targets" />
+  <p class="figure-caption">Modifying team structure against live objectives — headcount decisions shown next to the funding and reduction targets they're meant to serve.</p>
+</div>
+
+<div class="figure">
+  <img src="/images/annual-planning-0-to-1/metric-objectives.png" alt="Team Planner metric objectives table showing target budget, target headcount, cost owner, and workflow status per objective" />
+  <p class="figure-caption">Metric objectives, benchmarked against target budget and target headcount — one of the organizational effectiveness surfaces built for this cycle.</p>
+</div>
+
 ## Outcomes
 
 - **Measured:** 1,000+ hours of Mission Control time saved per cycle by reducing reliance on spreadsheets; 3,327 position changes operationalized in 2024, nearly doubling to 6,225 in 2025 — goals handled grew from 66 to 127 over the same period, with no corresponding increase in user count; 99% of position updates now initiated through the product UI rather than a spreadsheet; the 2025 cycle alone created 5,324 position changes, supported 127 targets across roughly 55 orgs and 297 locations, and touched close to $1B in headcount growth and reduction
