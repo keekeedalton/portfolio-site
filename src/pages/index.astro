@@ -6,11 +6,14 @@ import { SITE_LOCK_STORAGE_KEY } from '../lib/site-lock';
 
 const caseStudies = (await getCollection('case-studies')).filter((c) => !c.data.draft);
 
-const disciplineColor: Record<string, string> = {
-  system: 'var(--accent-system)',
-  product: 'var(--accent-product)',
-  conversation: 'var(--accent-conversation)',
-};
+const cardColors = [
+  'var(--accent-system)',
+  'var(--accent-product)',
+  'var(--accent-conversation)',
+  'var(--accent-card-4)',
+  'var(--accent-card-5)',
+  'var(--accent-card-6)',
+];
 ---
 <BaseLayout title="Kade Dalton" bare>
   <FloatingNav />
@@ -31,7 +34,7 @@ const disciplineColor: Record<string, string> = {
             <a class="work-card" href={`/case-studies/${entry.id}`}>
               <span
                 class="work-card-index"
-                style={`background:${disciplineColor[entry.data.discipline] ?? 'var(--accent-neutral)'}`}
+                style={`background:${cardColors[i % cardColors.length]}`}
               >
                 {String(i + 1).padStart(2, '0')}
               </span>

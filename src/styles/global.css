@@ -13,6 +13,12 @@
   --accent-conversation: #ff4a1c;
   --accent-neutral: #d8d4c9;
 
+  /* per-card work-list palette — cycled by position, not discipline, so
+     no two cards read as visually identical even when disciplines repeat */
+  --accent-card-4: #e0a72f;
+  --accent-card-5: #1c9c82;
+  --accent-card-6: #c93b7a;
+
   --font-display: "Arsenal", Georgia, serif;
   --font-text: Georgia, serif;
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
