@@ -35,6 +35,22 @@ The pod's mandate was to build an AI screener that could tell whether a project 
 - The recall/false-positive-rate measurement framework itself, including resolving a real methodology debate between a simple binary-per-Consult metric and a more complex per-risk metric, landing on the simple version as topline with the detailed version used to actually tune the agent
 - The updated risk-classification definitions, folded into the canonical prompt
 
+<div class="figure">
+  <img src="/images/consult-ai-screener/overview.png" alt="Consult advisory overview screen, showing initiative details and AI-gathered context from linked documents" />
+  <p class="figure-caption">The advisory overview. AI-gathered context surfaces linked documents — a data retention policy, a cross-border transfer assessment, a model card — and synthesizes real compliance findings from them, right where a reviewer is already looking.</p>
+</div>
+
+<div class="figure">
+  <img src="/images/consult-ai-screener/preliminary-review.png" alt="Consult preliminary review screen showing a no-advisory-required outcome with an option to still consult legal" />
+  <p class="figure-caption">A "no advisory required" outcome — the null-state path that still lets a project owner escalate to legal manually if they want a human read.</p>
+</div>
+
+<div class="figure-row">
+  <img src="/images/consult-ai-screener/counsel-overview-top.png" alt="Product counsel review surface showing an AI-detected risk card with accept/reject controls and rationale" />
+  <img src="/images/consult-ai-screener/counsel-overview-bottom.png" alt="Product counsel review surface showing manually added risks and follow-up action fields" />
+  <p class="figure-caption">The product counsel review surface. Accept/reject controls on each AI-detected risk, plus a path for legal to add risks the agent missed — the same interaction that produces the labeled data behind the recall/FPR measurement framework.</p>
+</div>
+
 ## Outcomes
 
 - **Measured:** 84% recall against an 80% target (N=539); average Consult duration was being actively tracked against a goal of cutting 8 business days down to under 3

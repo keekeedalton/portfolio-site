@@ -250,6 +250,74 @@ main {
   padding-left: 1.5rem;
 }
 
+/* ---- case study figures (break out wider than the reading column) ---- */
+
+.figure,
+.figure-row {
+  width: 100vw;
+  max-width: 900px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.figure img {
+  width: 100%;
+  display: block;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+.figure-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.figure-row .figure-caption {
+  flex-basis: 100%;
+}
+
+.figure-row > img,
+.figure-row > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.figure-row img {
+  width: 100%;
+  display: block;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+.figure-row p {
+  font-family: var(--font-text);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.figure-caption {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-top: 0.75rem;
+  text-align: left;
+}
+
+@media (max-width: 780px) {
+  .figure,
+  .figure-row {
+    width: calc(100vw - 3rem);
+  }
+  .figure-row {
+    flex-direction: column;
+  }
+}
+
 /* ---- homepage: full-bleed single scroll ---- */
 
 .scrollpage {
