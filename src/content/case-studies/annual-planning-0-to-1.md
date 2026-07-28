@@ -3,7 +3,7 @@ title: "Annual Planning, 0-to-1"
 order: 2
 summary: "Before this, Annual Planning ran on countless spreadsheets and a legacy tool with almost no insight into the process. Three-plus years later, it saves Mission Control 1,000+ hours a cycle, with 99% of position updates happening in-product instead of in a spreadsheet."
 discipline: "product"
-role: "Content designer"
+role: "Lead content designer; drove the 0-to-1 build end-to-end — flows, error states, NUX, emails, terminology, and support content, working with EEs, SWEs, PM, PD, Mission Control, Finance, and business stakeholders"
 date: 2023-10-01
 tags: ["0-to-1", "product"]
 draft: false
@@ -19,7 +19,7 @@ Before this product existed, annual planning ran on countless spreadsheets, prop
 
 ## Reframing
 
-I don't have a crisp memory of the initial ask versus what this grew into — but whatever the starting scope was, it didn't stay narrow. What shipped covers the full planning surface: plan creation, goal creation, headcount debt calculation, organizational effectiveness metrics and benchmarks, position creation, cross-org reorg capabilities, and admin features like changelogs and approval flows.
+The initial ask — get company leaders out of spreadsheets — became a precarious jenga tower of scope creep from all the other support partners who touched the annual planning process: line managers, HR partners, admins, recursive leaders. What shipped covers the full planning surface: plan creation, goal creation, headcount debt calculation, organizational effectiveness metrics and benchmarks, position creation, cross-org reorg capabilities, and admin features like changelogs and approval flows.
 
 ## Decisions
 
@@ -51,8 +51,8 @@ I don't have a crisp memory of the initial ask versus what this grew into — bu
 ## Outcomes
 
 - **Measured:** 1,000+ hours of Mission Control time saved per cycle by reducing reliance on spreadsheets; 3,327 position changes operationalized in 2024, nearly doubling to 6,225 in 2025 — goals handled grew from 66 to 127 over the same period, with no corresponding increase in user count; 99% of position updates now initiated through the product UI rather than a spreadsheet; the 2025 cycle alone created 5,324 position changes, supported 127 targets across roughly 55 orgs and 297 locations, and touched close to $1B in headcount growth and reduction
-- **Qualitative:** *"I have to say, this planning tool is one of the best tools that came out in the last couple of years (since I've been with Meta). Good job to the team and thank you."* — Infra Allocation Captain. Hypercare quality held up under real load too: of 52 hypercare issues raised in one cycle, every high-priority one was resolved within 12 hours, with minimal user impact.
-- **Downstream:** the tool has run every annual planning cycle for multiple years running — not a one-off launch, but the standing system of record.
+- **Qualitative:** *"I have to say, this planning tool is one of the best tools that came out in the last couple of years (since I've been with Meta). Good job to the team and thank you."* — Infra Allocation Captain. Hypercare quality held up under real load, too. Out of 52 hypercare issues raised in one cycle, every high-priority one was resolved within 12 hours, with minimal user impact.
+- **Downstream:** the tool has run every annual planning cycle for multiple years running. It couldn't simply be a one-off launch; it needed to be the standing system of record.
 
 ## What this taught me
 

@@ -210,9 +210,7 @@ main {
 .case-study .meta {
   color: var(--color-muted);
   font-family: var(--font-sans);
-  font-size: 0.85rem;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-size: 1rem;
   text-align: left;
   border: none;
   padding: 0;
