@@ -4,7 +4,9 @@ import FloatingNav from '../components/FloatingNav.astro';
 import { getCollection } from 'astro:content';
 import { SITE_LOCK_STORAGE_KEY } from '../lib/site-lock';
 
-const caseStudies = (await getCollection('case-studies')).filter((c) => !c.data.draft);
+const caseStudies = (await getCollection('case-studies'))
+  .filter((c) => !c.data.draft)
+  .sort((a, b) => a.data.order - b.data.order);
 
 const cardColors = [
   'var(--accent-system)',

@@ -1,5 +1,6 @@
 ---
 title: "Consult AI Screener"
+order: 1
 summary: "Legal review was a bottleneck — 70% of Consults only surfaced pre-identified risks, wasting expert bandwidth. As the pod's sole XFN AI builder, I found the real problem was a definitions gap, not an architecture gap. Recall hit 84% against an 80% target, and the pod's own success led to its wind-down."
 discipline: "conversation"
 role: "Content designer; sole cross-functional AI builder for the Consult pod — spanning UX research, coded prototypes, agent quality, and production UI"
@@ -57,6 +58,6 @@ The pod's mandate was to build an AI screener that could tell whether a project 
 - **Qualitative:** peer feedback specifically called out the range of the role: *"This combination of coded prototyping, prompt writing, and design craft is exactly what this emerging role should look like."*
 - **Downstream:** the screener's success was, in a real sense, self-eliminating — it worked well enough that leadership wound down the standalone Consult pod and reallocated its people to higher-impact projects.
 
-## Bridge / what this taught me
+## What this taught me
 
 The instinct that mattered most here wasn't technical, it was diagnostic. Everyone assumed a stuck recall number meant the model needed to get smarter. It didn't — it needed better-defined categories to reason with in the first place. That's the move I make on every AI project now: before reaching for a bigger model, ask whether the humans on the project have actually agreed on what the categories mean.

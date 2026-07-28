@@ -1,5 +1,6 @@
 ---
 title: "Annual Planning, 0-to-1"
+order: 2
 summary: "Before this, Annual Planning ran on countless spreadsheets and a legacy tool with almost no insight into the process. Three-plus years later, it saves Mission Control 1,000+ hours a cycle, with 99% of position updates happening in-product instead of in a spreadsheet."
 discipline: "product"
 role: "Content designer"
@@ -53,6 +54,6 @@ I don't have a crisp memory of the initial ask versus what this grew into — bu
 - **Qualitative:** *"I have to say, this planning tool is one of the best tools that came out in the last couple of years (since I've been with Meta). Good job to the team and thank you."* — Infra Allocation Captain. Hypercare quality held up under real load too: of 52 hypercare issues raised in one cycle, every high-priority one was resolved within 12 hours, with minimal user impact.
 - **Downstream:** the tool has run every annual planning cycle for multiple years running — not a one-off launch, but the standing system of record.
 
-## Bridge / what this taught me
+## What this taught me
 
 Processes collect clutter, and people are wary of relinquishing them — there's always a rationalization for complexity until you can prove an easier way exists. We had to manage change over several years, not just at MV1 launch: a phased rollout slowly won down the manual workarounds people were protective of when the tool first shipped. What actually built trust was small and cumulative — terminology that simplified ideas, cutthroat simplicity in small UX moments — and users bought in for two reasons: the tool felt complementary to their existing process rather than a hostile replacement of it, and each of those small moments quietly made the case that this was easier than a spreadsheet, one interaction at a time.

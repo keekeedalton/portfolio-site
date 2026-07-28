@@ -1,5 +1,6 @@
 ---
 title: "AI Autonomy Framework"
+order: 4
 summary: "Risk had just launched a six-stage framework for AI autonomy, but no patterns to design against it. I led the sprint that closed 60% of the pattern gap in one pass — later routinely referenced and adopted across many product and engineering teams."
 discipline: "system"
 role: "Content designer; led the AI Patterns Sprint that translated the framework into a coverage-mapped pattern library"
@@ -40,6 +41,6 @@ The brief, implicitly, was "help teams adopt the framework." I decided the missi
 - **Honest friction:** not everyone was convinced coverage alone meant quality. A colleague pushed back directly in the review: *"And how do we know these are good patterns? Do we have more to do to determine the bar?"* — a fair question, and one we didn't have a crisp answer to yet at the time.
 - **Downstream:** the patterns were routinely referenced and adopted across many product and engineering teams in the months that followed. The plan to formally "land" this as a product compliance system never happened — a later overhaul of the org's design component systems superseded that path before it shipped.
 
-## Bridge / what this taught me
+## What this taught me
 
 This is the same move I made years earlier mapping planning gaps instead of planning flows: name what's missing before you build for what exists. A framework tells you where you're supposed to be; a coverage map tells you where you actually are. The distance between those two is the real scope of the work — and it's usually bigger, and more specific, than the framework alone suggests.

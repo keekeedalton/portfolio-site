@@ -239,6 +239,7 @@ main {
 }
 
 .case-study .meta + p + p {
+  margin-top: 1rem;
   margin-bottom: 1.25rem;
 }
 
@@ -296,7 +297,7 @@ main {
   border-radius: 4px;
 }
 
-.figure-row p {
+.figure-row p:not(.figure-caption) {
   font-family: var(--font-text);
   font-size: 1.1rem;
   line-height: 1.6;

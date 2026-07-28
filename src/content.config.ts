@@ -6,6 +6,7 @@ const caseStudies = defineCollection({
   schema: z.object({
     title: z.string(),
     summary: z.string(),
+    order: z.number(),
     discipline: z.enum(['system', 'product', 'conversation']),
     role: z.string(),
     date: z.coerce.date(),

@@ -1,5 +1,6 @@
 ---
 title: "HRBP Sensitive Reorgs"
+order: 5
 summary: "Sensitive reorgs needed sign-off across five different surfaces — product content, in-app notifications, approval tooling, emails, and chat. I mapped what users understood at each step to exactly how much signposting each surface could carry, in a 12-week sprint ahead of a January 2025 pilot."
 discipline: "system"
 role: "Content designer"
@@ -43,6 +44,6 @@ Instead of sticking to a straightforward linear flow, we built in more recursive
 - **Qualitative:** peer feedback ahead of the pilot noted improved confidence and ease of completion for key personas, reduced misalignments and inaccurately defined decisional units, and reduced perceived legal risk — all attributed directly to the UI content and notification strategy
 - **Downstream:** this project set the infrastructure for how sensitive reorgs are handled going forward — infrastructure that was preserved even after the tool itself was absorbed into the larger planning product
 
-## Bridge / what this taught me
+## What this taught me
 
 Identifying the failure modes in every node of a process at the very start pays dividends later. It's easier to get everyone — legal, HRBPs, decision-makers across regions — to agree on what can go wrong than to agree on what's right. But once you have that shared list of failure modes, you have the basic framework you can apply to every UX moment that follows. Agreement on risk turned out to be the fastest path to agreement on design.

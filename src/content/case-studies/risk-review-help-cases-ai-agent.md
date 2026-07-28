@@ -1,5 +1,6 @@
 ---
 title: "Risk Review Help Cases AI Agent"
+order: 3
 summary: "The brief was to reduce case volume. The real problem was unstructured data — restructuring how project owners described issues took AI answer-confidence from 10% to 67% and resolution rates from 7% to 21%+."
 discipline: "conversation"
 role: "UX designer / content designer; led the redesign, co-led product design integration"
@@ -57,6 +58,6 @@ The original brief was to reduce case volume. I decided the actual problem was u
 - **Honest gap:** the skip rate only cutting to 50% still nags at me. Half of project owners were still routing around the agent after four weeks — the intake was fixed, but trust in the agent itself lagged behind the infrastructure that was supposed to earn it. Structure got AI to a usable answer; it didn't automatically get people to believe it.
 - **Downstream:** PRPM hours freed for reallocation, since triage became automatic once the data was structured; this project was the first stage for AI interception of help cases more broadly, laying the groundwork for further automation
 
-## Bridge / what this taught me
+## What this taught me
 
 In any system, human-in-the-loop is zero-sum. A fledgling AI agent still needs a human somewhere in the loop — the real question is where you spend that scarce human attention. We bet on the front of the experience, with structured inputs, rather than leaving structure optional and forcing humans at the back to pick up the slack for it. Garbage in, garbage out — and that's the instinct I now bring to every AI system I design.

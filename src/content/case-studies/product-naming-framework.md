@@ -1,5 +1,6 @@
 ---
 title: "Product Naming Framework"
+order: 6
 summary: "Naming at Meta is a small thing that's secretly enormous. I led naming for Workstream, then built the reusable evaluation template and risk-assessment framework that other content designers now use to rename 65+ products."
 discipline: "system"
 role: "Lead content designer; piloted the process, built reusable resources for other CDs"
@@ -39,6 +40,6 @@ The brief was "name Workstream." The reframing: if I'm building the toolkit anyw
 - **Qualitative:** *"Thanks Kade Dalton for writing such an excellent note on product naming and reviews with so many great resources linked... I'm bookmarking this as the gold standard reference."* — Content Designer. *"Thanks Kade for your advocacy in finding the most effective name for our products. Naming is such a difficult thing because it's so visceral and everyone has an opinion, but you approach it with an inclusive and detail-minded framework, making it easy for people to rally behind."* — Stakeholder
 - **Downstream:** Established the practice of content designers publishing reusable resources out of project-specific work; the naming risk-assessment framework was discussed for standardization across Internal Foundation
 
-## Bridge / what this taught me
+## What this taught me
 
 The reusable resource will reach more people than the project will — optimize accordingly. This is the move that connects every system I've shipped since: the Pulse content system, the AI Autonomy Framework, the Risk Figma plugin, the rd-eval rubric. Do the work for the project in front of you, but design the substrate for the next ten projects you'll never see. The compounding is what makes the work senior.
