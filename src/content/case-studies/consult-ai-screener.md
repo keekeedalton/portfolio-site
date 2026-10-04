@@ -13,6 +13,18 @@ draft: false
 
 **TL;DR:** Legal "Consult" exists to catch novel, high-stakes risks — but 70% of Consults only surfaced risks that were already identified elsewhere, and over half resolved as routine self-certifications. As the Consult pod's sole cross-functional AI builder, I found that the screener's recall problem wasn't an architecture problem. It was a definitions problem. Fixing it took recall to 84% against an 80% target.
 
+<div class="secret-v2-flow-banner banner-reframing">
+  <div class="flow-chart">
+    <div class="flow-node">Signals</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node flow-node--highlight">Definitions gap</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node">Updated taxonomy</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node">Recall lift</div>
+  </div>
+</div>
+
 ## Context
 
 Consult exists so product teams can get live advice from Legal and Privacy Review Program Managers on three kinds of problems: novel risks nobody's seen before, risk domains not yet covered by standard requirements, and general navigation of the risk process. But as AI accelerated the pace of product development, Consult risked becoming the bottleneck: 70% of Consults only had risks that were already identified elsewhere in Risk Review, and 52% resolved as routine self-certifications — Legal's expertise was being spent on cases that didn't need it. Worse, legal advice wasn't recorded anywhere structured, which meant there was no way to analyze it or build automation on top of it.
@@ -21,11 +33,35 @@ Consult exists so product teams can get live advice from Legal and Privacy Revie
 
 The pod's mandate was to build an AI screener that could tell whether a project actually needed a Consult. Early on, a stuck recall number read as an engineering problem — not enough model sophistication. I didn't think that was right. Working through side-by-side evaluations across real projects, I found the original classifier wasn't missing non-IDP risks because the architecture couldn't find them. It was missing them because nobody had precisely defined what those risk categories meant well enough for a model to apply them consistently. That reframe — from "improve the model" to "improve the definitions" — is what actually moved the numbers.
 
+<div class="secret-v2-flow-banner banner-decisions">
+  <div class="flow-chart">
+    <div class="flow-node">Research</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node flow-node--highlight">Definitions rewrite</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node">UI + labels</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node">Measured outcomes</div>
+  </div>
+</div>
+
 ## Decisions
 
 1. **Fix definitions before fixing architecture.** Instead of pushing for a bigger or more complex model, I ran research against labeled novel-risk and non-IDP-risk cases, built a small-dataset classification approach that outperformed the existing one, and folded that work directly into the canonical prompt. In a side-by-side eval across 6 real projects, the original classifier found zero high-certainty non-IDP risks. My updated definitions surfaced 7+ across 3 projects, in Privacy and Consumer Protection.
 2. **Design for structured data, not just usability.** I fully refactored the Consult intake from a flat, free-text input into an interactive experience where AI-recommended risks could be reviewed and acted on — built to be usable for POs and Legal, but just as importantly, built to produce the structured data labels the team needed to actually measure and improve the agent. The UI and the eval infrastructure were the same design decision, not two separate projects.
 3. **Code the prototypes myself.** Rather than hand off static mocks to engineering, I built coded prototypes directly, which doubled as demo material and as the literal eng handoff spec — cutting out the design-to-eng translation step that normally slows this kind of work down.
+
+<div class="secret-v2-flow-banner banner-shipped">
+  <div class="flow-chart">
+    <div class="flow-node">Intake</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node">Risk review</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node flow-node--highlight">AI rationale</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node">Legal handoff</div>
+  </div>
+</div>
 
 ## What shipped
 
