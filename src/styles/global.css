@@ -697,7 +697,7 @@ main {
 
 .secret-v2-content section {
   border-top: 1px solid rgba(17, 17, 17, 0.14);
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .secret-v2-flow-banner {
@@ -748,10 +748,19 @@ main {
   opacity: 0.8;
 }
 
+.secret-v2-content h1,
+.secret-v2-content h2,
+.secret-v2-content h3,
+.secret-v2-content h4,
+.secret-v2-content h5,
+.secret-v2-content h6 {
+  margin: 0;
+}
+
 .secret-v2-content h2 {
   font-size: clamp(1.8rem, 3vw, 2.7rem);
   line-height: 1.1;
-  margin: 0;
+  margin: 0 0 0.7rem;
 }
 
 .secret-v2-content p,
@@ -762,7 +771,13 @@ main {
   font-size: 1.1rem;
   line-height: 1.8;
   color: rgba(17, 17, 17, 0.8);
-  margin-top: 0;
+  margin: 0 0 0.9rem;
+}
+
+.secret-v2-content p:last-child,
+.secret-v2-content ul:last-child,
+.secret-v2-content ol:last-child,
+.secret-v2-content blockquote:last-child {
   margin-bottom: 0;
 }
 
@@ -855,6 +870,16 @@ main {
 .secret-v2-list li {
   margin-bottom: 0.8rem;
   line-height: 1.7;
+}
+
+.secret-v2-highlight {
+  display: inline;
+  background: rgba(124, 164, 255, 0.26);
+  color: inherit;
+  padding: 0.18em 0.22em 0.16em;
+  margin: -0.18em -0.12em;
+  line-height: 1.38;
+  box-shadow: none;
 }
 
 @media (max-width: 780px) {
